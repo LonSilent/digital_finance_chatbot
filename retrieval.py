@@ -3,11 +3,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pysparnn.cluster_index as ci
 import jieba
 
-jieba.set_dictionary('../zh-dict/dict_zh_small.txt')
+jieba.set_dictionary('./dict/dict_zh_small.txt')
 
-jieba.load_userdict('../zh-dict/acg.txt')
-jieba.load_userdict('../zh-dict/ec_item_zh.txt')
-jieba.load_userdict('../zh-dict/user_dict_zh.txt')
+jieba.load_userdict('./dict/user_dict_zh.txt')
 jieba.load_userdict('./dict/finance_dict.txt')
 
 def build_index(data_path):

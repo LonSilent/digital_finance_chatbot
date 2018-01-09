@@ -2,7 +2,7 @@
 
 ## Dependency
 
-scikit-learn, pysparnn, slackclient
+scikit-learn, [pysparnn](https://github.com/facebookresearch/pysparnn), slackclient
 
 ## Preprocessing
 
